@@ -472,7 +472,7 @@ footer p a {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 660px ) {
+@media screen and (max-width: 660px) {
     .header {
         height: unset;
     }
@@ -550,6 +550,13 @@ footer p a {
     }
     .contactUs .container1 .container-sendMessage {
         width: 100%;
+        padding-inline: 0px;
+    }
+    .contactUs .container1 .container-sendMessage form input {
+        margin-bottom: 0;
+    }
+    .contactUs .container1 .container-sendMessage form label {
+        margin-bottom: 1px;
     }
     .contactUs .container1 .container-location {
         width: 100%;
